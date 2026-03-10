@@ -24,7 +24,6 @@
       "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "@n8n/n8n-nodes-langchain.openAi",
       "n8n-nodes-base.baserowTool",
-      "n8n-nodes-base.convertToFile",
       "n8n-nodes-base.gmailTool",
       "n8n-nodes-base.googleCalendarTool",
       "n8n-nodes-base.if",
@@ -35,6 +34,6 @@
       "n8n-nodes-base.telegramTrigger"
     ]
   },
-  "exportedAt": "2026-03-10T13:28:56.955Z",
+  "exportedAt": "2026-03-10T13:29:13.762Z",
   "exportedBy": "80acf77f-270d-434d-964c-2b5f1e0ca9c2"
 }

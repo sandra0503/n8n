@@ -12,32 +12,12 @@
       ],
       "id": "e5d50f2b-dc76-40e4-8c07-eb394dc20025",
       "name": "When clicking ‘Execute workflow’"
-    },
-    {
-      "parameters": {
-        "operation": "html",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.convertToFile",
-      "typeVersion": 1.1,
-      "position": [
-        208,
-        0
-      ],
-      "id": "d7185544-7435-4948-b9f3-d2c1984609dd",
-      "name": "Convert to File"
     }
   ],
   "connections": {
     "When clicking ‘Execute workflow’": {
       "main": [
-        [
-          {
-            "node": "Convert to File",
-            "type": "main",
-            "index": 0
-          }
-        ]
+        []
       ]
     }
   },
@@ -46,7 +26,7 @@
     "binaryMode": "separate"
   },
   "triggerCount": 0,
-  "versionId": "89637377-0d67-4344-bc7d-ceb24ad472e0",
+  "versionId": "ef05dc76-6f95-4f1e-ab07-b8eb42d51550",
   "owner": {
     "type": "team",
     "teamId": "Je2Kq9ayZdYY8t1G",
