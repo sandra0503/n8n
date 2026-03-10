@@ -1,6 +1,6 @@
 {
-  "id": "F78HhbU6wwQJwzzx",
-  "name": "My workflow",
+  "id": "ZeKczeeDxIftlxu1",
+  "name": "Telegram Chatbot",
   "nodes": [
     {
       "parameters": {
@@ -16,7 +16,7 @@
           "fields": "=items(summary, start(dateTime))"
         }
       },
-      "id": "10ce3a8b-aeb2-4e72-949a-4776f02ec207",
+      "id": "05712616-0699-4e09-8a3b-84738c6d27b1",
       "name": "Google Calendar",
       "type": "n8n-nodes-base.googleCalendarTool",
       "position": [
@@ -30,7 +30,7 @@
         "sessionIdType": "customKey",
         "sessionKey": "={{ $('Listen for incoming events').first().json.message.from.id }}"
       },
-      "id": "d664b610-733f-4566-a11d-07b7344505b3",
+      "id": "001aedbd-61f3-479f-bd17-9b42f8a471b2",
       "name": "Window Buffer Memory",
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "position": [
@@ -51,7 +51,7 @@
           "receivedAfter": "={{$fromAI(\"date\",\"the date after which to fetch the messages in format YYYY-MM-DDTHH:MM:SS\")}}"
         }
       },
-      "id": "978708b1-f51f-4637-b2c7-24241134602b",
+      "id": "7d28e5f8-7481-45ff-bbde-b07558823e33",
       "name": "Get Email",
       "type": "n8n-nodes-base.gmailTool",
       "position": [
@@ -65,7 +65,7 @@
       "parameters": {
         "options": {}
       },
-      "id": "1b2901f3-b248-41e8-86d3-1923216ce72e",
+      "id": "f075d23a-3125-44fb-aeb5-63d6c766e79e",
       "name": "OpenAI Chat Model",
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "position": [
@@ -81,7 +81,7 @@
         ],
         "additionalFields": {}
       },
-      "id": "9ed565ef-8317-4b25-9216-41c7add7e08e",
+      "id": "62132654-9689-4711-9c68-fb82983fe560",
       "name": "Listen for incoming events",
       "type": "n8n-nodes-base.telegramTrigger",
       "position": [
@@ -100,7 +100,7 @@
           "parse_mode": "Markdown"
         }
       },
-      "id": "b5ab9ac1-9419-4e30-85da-5f59ece64bfd",
+      "id": "8b993920-2f84-401f-935b-8bd0cf618df6",
       "name": "Telegram",
       "type": "n8n-nodes-base.telegram",
       "position": [
@@ -136,7 +136,7 @@
         },
         "options": {}
       },
-      "id": "ebf50621-e90f-429f-8b9d-de61ba1568e3",
+      "id": "bab8120e-86f1-4425-a626-83147947fd3b",
       "name": "If",
       "type": "n8n-nodes-base.if",
       "position": [
@@ -151,7 +151,7 @@
         "operation": "transcribe",
         "options": {}
       },
-      "id": "b43a2947-3964-4230-af09-dc178c0f9a94",
+      "id": "901fee6f-b52f-408b-8c2e-7b5c9ec19d67",
       "name": "Speech to Text",
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "position": [
@@ -172,7 +172,7 @@
         },
         "options": {}
       },
-      "id": "37f2cc0f-3877-4130-a384-1162709947f1",
+      "id": "3c7b5ca0-d466-4ad5-8885-da3fa71270f4",
       "name": "Voice or Text",
       "type": "n8n-nodes-base.set",
       "position": [
@@ -187,7 +187,7 @@
         "fileId": "={{ $('Listen for incoming events').item.json.message.voice.file_id }}",
         "additionalFields": {}
       },
-      "id": "520d62d9-4a0f-4591-b327-0548dc2c5397",
+      "id": "4b69cdd7-326f-4ede-8fe5-3e5b19fcb9a3",
       "name": "Get Voice File",
       "type": "n8n-nodes-base.telegram",
       "position": [
@@ -205,7 +205,7 @@
           "systemMessage": "=You are a helpful assistant.\n\nToday's date is {{ $now }}.\n\nGuidelines:\n- When fetching emails, filter out any promotional emails. \n- When summarizing emails, include Sender, Message date, subject, and brief summary of email.\n- if the user did not specify a date in the request assume they are asking for today\n- Use baserow tool to answer questions about tasks\n- When answering questions about calendar events, filter out events that don't apply to the question.  For example, the question is about events for today, only reply with events for today. Don't mention future events if it's more than 1 week away"
         }
       },
-      "id": "cca763fe-86dd-4b06-a4ac-ee8536817e95",
+      "id": "aaa29487-a07d-49d4-987f-f9da7bd22a2e",
       "name": "Angie, AI Assistant 👩🏻‍🏫",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "position": [
@@ -221,7 +221,7 @@
         "width": 800,
         "color": 5
       },
-      "id": "03eb0d08-2dd9-4cb8-9ca7-99af76fc4056",
+      "id": "11fab13a-4ad0-4c5e-918e-f959c012afb8",
       "name": "Sticky Note",
       "type": "n8n-nodes-base.stickyNote",
       "position": [
@@ -236,7 +236,7 @@
         "tableId": 372174,
         "additionalOptions": {}
       },
-      "id": "f8b14539-9b74-44f4-acfd-ffc71c6a908a",
+      "id": "122c8c36-03bf-410f-93d0-155b45941914",
       "name": "Tasks",
       "type": "n8n-nodes-base.baserowTool",
       "position": [
@@ -253,7 +253,7 @@
         "tableId": 372177,
         "additionalOptions": {}
       },
-      "id": "1e80150a-f564-4238-af4a-1f847badd0f4",
+      "id": "08a8d062-0147-4b95-8749-e6bdcc02afcc",
       "name": "Contacts",
       "type": "n8n-nodes-base.baserowTool",
       "position": [
@@ -276,7 +276,7 @@
         },
         "options": {}
       },
-      "id": "50d65c68-8b6c-401f-8893-943e176ccd04",
+      "id": "0443cf42-cba8-44c4-b26b-09c27e9076e5",
       "name": "AllowList",
       "type": "n8n-nodes-base.set",
       "position": [
@@ -310,7 +310,7 @@
         },
         "options": {}
       },
-      "id": "d59e3067-1c44-405d-bfe1-30038354347e",
+      "id": "01707709-408c-435f-89c1-7a6d611e8fcd",
       "name": "If1",
       "type": "n8n-nodes-base.if",
       "position": [
@@ -326,7 +326,7 @@
         "width": 448,
         "color": 5
       },
-      "id": "49b6cac9-88f5-4910-8a07-cdce364d0262",
+      "id": "88b902ca-dd94-4d8b-a810-4fd31c9391f3",
       "name": "Sticky Note1",
       "type": "n8n-nodes-base.stickyNote",
       "position": [
@@ -504,7 +504,7 @@
     "binaryMode": "separate"
   },
   "triggerCount": 0,
-  "versionId": "0f452e26-e808-413e-831a-1bead115ee92",
+  "versionId": "64c59830-9bcc-4e56-a6d7-16677d618234",
   "owner": {
     "type": "team",
     "teamId": "Je2Kq9ayZdYY8t1G",
