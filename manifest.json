@@ -3,30 +3,15 @@
   "name": "My project",
   "projects": [
     {
-      "id": "Je2Kq9ayZdYY8t1G",
+      "id": "yemR93sOMbBv1Lxh",
       "name": "My project",
-      "dirName": "my-project-YY8t1G"
+      "dirName": "my-project-Bv1Lxh"
     }
   ],
   "dependencies": {
-    "credentialTypes": [
-      "actionNetworkApi"
-    ],
-    "nodeTypes": [
-      "@n8n/n8n-nodes-langchain.agent",
-      "@n8n/n8n-nodes-langchain.lmChatOpenAi",
-      "@n8n/n8n-nodes-langchain.memoryBufferWindow",
-      "@n8n/n8n-nodes-langchain.openAi",
-      "n8n-nodes-base.baserowTool",
-      "n8n-nodes-base.gmailTool",
-      "n8n-nodes-base.googleCalendarTool",
-      "n8n-nodes-base.if",
-      "n8n-nodes-base.set",
-      "n8n-nodes-base.stickyNote",
-      "n8n-nodes-base.telegram",
-      "n8n-nodes-base.telegramTrigger"
-    ]
+    "credentialTypes": [],
+    "nodeTypes": []
   },
-  "exportedAt": "2026-03-10T12:03:27.680Z",
+  "exportedAt": "2026-03-10T12:05:15.595Z",
   "exportedBy": "80acf77f-270d-434d-964c-2b5f1e0ca9c2"
 }

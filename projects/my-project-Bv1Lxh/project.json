@@ -1,15 +1,15 @@
 {
-  "id": "Je2Kq9ayZdYY8t1G",
+  "id": "yemR93sOMbBv1Lxh",
   "name": "My project",
   "icon": {
     "type": "emoji",
-    "value": "💟"
+    "value": "🧪"
   },
   "description": null,
   "type": "team",
   "owner": {
     "type": "team",
-    "teamId": "Je2Kq9ayZdYY8t1G",
+    "teamId": "yemR93sOMbBv1Lxh",
     "teamName": "My project"
   },
   "variableStubs": []
