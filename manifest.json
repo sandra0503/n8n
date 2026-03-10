@@ -15,7 +15,8 @@
   ],
   "dependencies": {
     "credentialTypes": [
-      "actionNetworkApi"
+      "actionNetworkApi",
+      "telegramApi"
     ],
     "nodeTypes": [
       "@n8n/n8n-nodes-langchain.agent",
@@ -32,6 +33,6 @@
       "n8n-nodes-base.telegramTrigger"
     ]
   },
-  "exportedAt": "2026-03-10T12:29:52.073Z",
+  "exportedAt": "2026-03-10T12:38:12.953Z",
   "exportedBy": "80acf77f-270d-434d-964c-2b5f1e0ca9c2"
 }

@@ -89,7 +89,13 @@
         336
       ],
       "webhookId": "322dce18-f93e-4f86-b9b1-3305519b7834",
-      "typeVersion": 1
+      "typeVersion": 1,
+      "credentials": {
+        "telegramApi": {
+          "id": "qZzwUAHrCL1QTJmp",
+          "name": "Telegram account"
+        }
+      }
     },
     {
       "parameters": {
@@ -109,6 +115,12 @@
       ],
       "webhookId": "e699405e-8e52-4d38-a06b-1fa8edf050bd",
       "typeVersion": 1.1,
+      "credentials": {
+        "telegramApi": {
+          "id": "qZzwUAHrCL1QTJmp",
+          "name": "Telegram account"
+        }
+      },
       "onError": "continueErrorOutput"
     },
     {
@@ -195,7 +207,13 @@
         256
       ],
       "webhookId": "24273e7e-6133-415e-8627-a9d6dc0f107c",
-      "typeVersion": 1.1
+      "typeVersion": 1.1,
+      "credentials": {
+        "telegramApi": {
+          "id": "qZzwUAHrCL1QTJmp",
+          "name": "Telegram account"
+        }
+      }
     },
     {
       "parameters": {
@@ -504,7 +522,7 @@
     "binaryMode": "separate"
   },
   "triggerCount": 0,
-  "versionId": "64c59830-9bcc-4e56-a6d7-16677d618234",
+  "versionId": "8366be07-2ccc-49ca-be93-45e0cff96480",
   "owner": {
     "type": "team",
     "teamId": "Je2Kq9ayZdYY8t1G",
