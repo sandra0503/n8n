@@ -1,0 +1,31 @@
+{
+  "id": "moiLObFOunrH6Mky",
+  "name": "test flow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "e5d50f2b-dc76-40e4-8c07-eb394dc20025",
+      "name": "When clicking ‘Execute workflow’"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "triggerCount": 0,
+  "versionId": "f2359aa1-f242-483b-bad7-07ee995e7411",
+  "owner": {
+    "type": "team",
+    "teamId": "Je2Kq9ayZdYY8t1G",
+    "teamName": ""
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

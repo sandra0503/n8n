@@ -27,12 +27,13 @@
       "n8n-nodes-base.gmailTool",
       "n8n-nodes-base.googleCalendarTool",
       "n8n-nodes-base.if",
+      "n8n-nodes-base.manualTrigger",
       "n8n-nodes-base.set",
       "n8n-nodes-base.stickyNote",
       "n8n-nodes-base.telegram",
       "n8n-nodes-base.telegramTrigger"
     ]
   },
-  "exportedAt": "2026-03-10T12:38:12.953Z",
+  "exportedAt": "2026-03-10T12:56:02.277Z",
   "exportedBy": "80acf77f-270d-434d-964c-2b5f1e0ca9c2"
 }
