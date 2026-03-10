@@ -9,9 +9,11 @@
     }
   ],
   "dependencies": {
-    "credentialTypes": [],
+    "credentialTypes": [
+      "actionNetworkApi"
+    ],
     "nodeTypes": []
   },
-  "exportedAt": "2026-03-10T11:58:30.587Z",
+  "exportedAt": "2026-03-10T12:00:42.089Z",
   "exportedBy": "80acf77f-270d-434d-964c-2b5f1e0ca9c2"
 }
