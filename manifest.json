@@ -15,8 +15,10 @@
   ],
   "dependencies": {
     "credentialTypes": [],
-    "nodeTypes": []
+    "nodeTypes": [
+      "n8n-nodes-base.manualTrigger"
+    ]
   },
-  "exportedAt": "2026-03-10T12:25:23.016Z",
+  "exportedAt": "2026-03-10T12:26:23.301Z",
   "exportedBy": "80acf77f-270d-434d-964c-2b5f1e0ca9c2"
 }

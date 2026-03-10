@@ -1,0 +1,31 @@
+{
+  "id": "SGIOLfOstmA43VeZ",
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "7f41171d-d5ee-457c-a1ce-b7aa46b6bae1",
+      "name": "When clicking ‘Execute workflow’"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "triggerCount": 0,
+  "versionId": "1c0ada27-3c1d-4d23-8888-42dc5d369a80",
+  "owner": {
+    "type": "team",
+    "teamId": "yemR93sOMbBv1Lxh",
+    "teamName": ""
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
