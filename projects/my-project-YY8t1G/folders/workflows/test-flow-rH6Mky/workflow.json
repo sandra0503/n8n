@@ -12,12 +12,31 @@
       ],
       "id": "e5d50f2b-dc76-40e4-8c07-eb394dc20025",
       "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nfor (const item of $input.all()) {\n  item.json.myNewField = 1;\n}\n\nreturn $input.all();"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "a7b17c1b-bcb9-4730-9a9a-5e8491063a03",
+      "name": "Code in JavaScript"
     }
   ],
   "connections": {
     "When clicking ‘Execute workflow’": {
       "main": [
-        []
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     }
   },
@@ -26,7 +45,7 @@
     "binaryMode": "separate"
   },
   "triggerCount": 0,
-  "versionId": "ef05dc76-6f95-4f1e-ab07-b8eb42d51550",
+  "versionId": "45e32273-6be7-4f5a-bbe2-b876b6de7306",
   "owner": {
     "type": "team",
     "teamId": "Je2Kq9ayZdYY8t1G",
