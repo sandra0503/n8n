@@ -9,14 +9,14 @@
     },
     {
       "id": "yemR93sOMbBv1Lxh",
-      "name": "My project",
-      "dirName": "my-project-Bv1Lxh"
+      "name": "Testing",
+      "dirName": "testing-Bv1Lxh"
     }
   ],
   "dependencies": {
     "credentialTypes": [],
     "nodeTypes": []
   },
-  "exportedAt": "2026-03-10T12:24:41.892Z",
+  "exportedAt": "2026-03-10T12:25:23.016Z",
   "exportedBy": "80acf77f-270d-434d-964c-2b5f1e0ca9c2"
 }
