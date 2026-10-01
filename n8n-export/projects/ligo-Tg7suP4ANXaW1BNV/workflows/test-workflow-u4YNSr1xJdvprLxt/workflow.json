@@ -48,6 +48,11 @@
 					}
 				]
 			]
+		},
+		"Edit Fields": {
+			"main": [
+				[]
+			]
 		}
 	},
 	"settings": {
