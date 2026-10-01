@@ -23,6 +23,16 @@
 				0
 			],
 			"parameters": {
+				"assignments": {
+					"assignments": [
+						{
+							"id": "d0ba20f3-2d4c-4746-8ccd-02f1ba653a31",
+							"name": "re",
+							"value": "te",
+							"type": "string"
+						}
+					]
+				},
 				"options": {}
 			}
 		}
