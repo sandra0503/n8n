@@ -1,0 +1,38 @@
+{
+	"packageFormatVersion": "1",
+	"exportedAt": "2026-10-01T13:48:09.627Z",
+	"sourceN8nVersion": "2.42.0",
+	"sourceId": "ff63d59d505ba89e959a597b79eebf8e1f53f4699814ed48f7842c850fac8708",
+	"workflows": [
+		{
+			"id": "u4YNSr1xJdvprLxt",
+			"name": "Test workflow",
+			"target": "projects/ligo-Tg7suP4ANXaW1BNV/workflows/test-workflow-u4YNSr1xJdvprLxt"
+		}
+	],
+	"projects": [
+		{
+			"id": "Tg7suP4ANXaW1BNV",
+			"name": "LiGo",
+			"target": "projects/ligo-Tg7suP4ANXaW1BNV"
+		}
+	],
+	"requirements": {
+		"nodeTypes": [
+			{
+				"type": "n8n-nodes-base.manualTrigger",
+				"typeVersion": 1,
+				"usedByWorkflows": [
+					"u4YNSr1xJdvprLxt"
+				]
+			},
+			{
+				"type": "n8n-nodes-base.set",
+				"typeVersion": 3.5,
+				"usedByWorkflows": [
+					"u4YNSr1xJdvprLxt"
+				]
+			}
+		]
+	}
+}
