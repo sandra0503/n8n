@@ -1,13 +1,31 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-06T10:05:08.878Z",
+	"exportedAt": "2026-10-06T10:06:09.581Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
+	"workflows": [
+		{
+			"id": "9nzclj0BmXH7hT18",
+			"name": "My workflow",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/my-workflow-9nzclj0BmXH7hT18"
+		}
+	],
 	"projects": [
 		{
 			"id": "VmQFdrUWvr0Mxr4p",
 			"name": "Sales workflows",
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p"
 		}
-	]
+	],
+	"requirements": {
+		"nodeTypes": [
+			{
+				"type": "n8n-nodes-base.scheduleTrigger",
+				"typeVersion": 1.4,
+				"usedByWorkflows": [
+					"9nzclj0BmXH7hT18"
+				]
+			}
+		]
+	}
 }
