@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-06T10:06:09.581Z",
+	"exportedAt": "2026-10-06T10:40:46.525Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -8,6 +8,11 @@
 			"id": "9nzclj0BmXH7hT18",
 			"name": "My workflow",
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/my-workflow-9nzclj0BmXH7hT18"
+		},
+		{
+			"id": "ONvirPdlOjvdgYn7",
+			"name": "New PO approval flow",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/new-po-approval-flow-ONvirPdlOjvdgYn7"
 		}
 	],
 	"projects": [
@@ -24,6 +29,13 @@
 				"typeVersion": 1.4,
 				"usedByWorkflows": [
 					"9nzclj0BmXH7hT18"
+				]
+			},
+			{
+				"type": "n8n-nodes-base.manualTrigger",
+				"typeVersion": 1,
+				"usedByWorkflows": [
+					"ONvirPdlOjvdgYn7"
 				]
 			}
 		]

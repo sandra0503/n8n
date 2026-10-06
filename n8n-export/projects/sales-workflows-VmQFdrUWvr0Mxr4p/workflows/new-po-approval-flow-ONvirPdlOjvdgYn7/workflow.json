@@ -1,0 +1,25 @@
+{
+	"id": "ONvirPdlOjvdgYn7",
+	"name": "New PO approval flow",
+	"nodes": [
+		{
+			"id": "0a078875-3c03-4c51-86ce-6e9e0a234d88",
+			"name": "When clicking ‘Execute workflow’",
+			"type": "n8n-nodes-base.manualTrigger",
+			"typeVersion": 1,
+			"position": [
+				0,
+				0
+			],
+			"parameters": {}
+		}
+	],
+	"connections": {},
+	"settings": {
+		"executionOrder": "v1",
+		"binaryMode": "separate"
+	},
+	"parentFolderId": null,
+	"isArchived": false,
+	"tagIds": []
+}
