@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:35:11.195Z",
+	"exportedAt": "2026-10-07T12:38:56.206Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -92,8 +92,8 @@
 		],
 		"workflows": [
 			{
-				"id": "fTcwsBj1atGthfKJ",
-				"name": "MY OWN SUBWORKFLOW",
+				"id": "gWtcHPQKefyNvYwS",
+				"name": "SHARED SUBWORKFLOW",
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
 				]

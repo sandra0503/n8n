@@ -87,7 +87,7 @@
 		},
 		{
 			"id": "8371d53c-a23c-4914-ac4b-c1c2f349ba22",
-			"name": "Call 'MY OWN SUBWORKFLOW'",
+			"name": "Call 'SHARED SUBWORKFLOW'",
 			"type": "n8n-nodes-base.executeWorkflow",
 			"typeVersion": 1.4,
 			"position": [
@@ -97,10 +97,10 @@
 			"parameters": {
 				"workflowId": {
 					"__rl": true,
-					"value": "fTcwsBj1atGthfKJ",
+					"value": "gWtcHPQKefyNvYwS",
 					"mode": "list",
-					"cachedResultUrl": "/workflow/fTcwsBj1atGthfKJ",
-					"cachedResultName": "MY OWN SUBWORKFLOW"
+					"cachedResultUrl": "/workflow/gWtcHPQKefyNvYwS",
+					"cachedResultName": "Cross Dependency Project — SHARED SUBWORKFLOW"
 				},
 				"workflowInputs": {
 					"mappingMode": "defineBelow",
@@ -152,7 +152,7 @@
 			"main": [
 				[
 					{
-						"node": "Call 'MY OWN SUBWORKFLOW'",
+						"node": "Call 'SHARED SUBWORKFLOW'",
 						"type": "main",
 						"index": 0
 					}
