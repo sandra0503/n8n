@@ -84,6 +84,34 @@
 				},
 				"options": {}
 			}
+		},
+		{
+			"id": "f7c0fe14-4f53-46f0-9359-f8fbef908214",
+			"name": "Call 'SHARED RESOURCE USE IT!!!!'",
+			"type": "n8n-nodes-base.executeWorkflow",
+			"typeVersion": 1.4,
+			"position": [
+				848,
+				16
+			],
+			"parameters": {
+				"workflowId": {
+					"__rl": true,
+					"value": "WWv9zMNfACJlTZHZ",
+					"mode": "list",
+					"cachedResultUrl": "/workflow/WWv9zMNfACJlTZHZ",
+					"cachedResultName": "Cross Dependency Project — SHARED RESOURCE USE IT!!!!"
+				},
+				"workflowInputs": {
+					"mappingMode": "defineBelow",
+					"value": {},
+					"matchingColumns": [],
+					"schema": [],
+					"attemptToConvertTypes": false,
+					"convertFieldsToString": true
+				},
+				"options": {}
+			}
 		}
 	],
 	"connections": {
@@ -122,7 +150,13 @@
 		},
 		"Insert row": {
 			"main": [
-				[]
+				[
+					{
+						"node": "Call 'SHARED RESOURCE USE IT!!!!'",
+						"type": "main",
+						"index": 0
+					}
+				]
 			]
 		}
 	},
