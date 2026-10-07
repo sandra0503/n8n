@@ -12,9 +12,36 @@
 				0
 			],
 			"parameters": {}
+		},
+		{
+			"id": "fe80c239-b74b-40de-80bd-d65d869b737d",
+			"name": "HTTP Request",
+			"type": "n8n-nodes-base.httpRequest",
+			"typeVersion": 4.5,
+			"position": [
+				224,
+				0
+			],
+			"parameters": {
+				"authentication": "genericCredentialType",
+				"genericAuthType": "httpHeaderAuth",
+				"options": {}
+			}
 		}
 	],
-	"connections": {},
+	"connections": {
+		"When clicking ‘Execute workflow’": {
+			"main": [
+				[
+					{
+						"node": "HTTP Request",
+						"type": "main",
+						"index": 0
+					}
+				]
+			]
+		}
+	},
 	"settings": {
 		"executionOrder": "v1",
 		"binaryMode": "separate"
