@@ -1,0 +1,25 @@
+{
+	"id": "5fhi6w6bT0AuoqX2",
+	"name": "My workflow 2",
+	"nodes": [
+		{
+			"id": "5e31bf97-2425-4810-88f2-c62e1d79c39b",
+			"name": "When clicking ‘Execute workflow’",
+			"type": "n8n-nodes-base.manualTrigger",
+			"typeVersion": 1,
+			"position": [
+				0,
+				0
+			],
+			"parameters": {}
+		}
+	],
+	"connections": {},
+	"settings": {
+		"executionOrder": "v1",
+		"binaryMode": "separate"
+	},
+	"parentFolderId": "bac7K1KMzUE3U8nZ",
+	"isArchived": false,
+	"tagIds": []
+}
