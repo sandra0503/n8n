@@ -84,6 +84,34 @@
 				},
 				"options": {}
 			}
+		},
+		{
+			"id": "8371d53c-a23c-4914-ac4b-c1c2f349ba22",
+			"name": "Call 'MY OWN SUBWORKFLOW'",
+			"type": "n8n-nodes-base.executeWorkflow",
+			"typeVersion": 1.4,
+			"position": [
+				848,
+				16
+			],
+			"parameters": {
+				"workflowId": {
+					"__rl": true,
+					"value": "fTcwsBj1atGthfKJ",
+					"mode": "list",
+					"cachedResultUrl": "/workflow/fTcwsBj1atGthfKJ",
+					"cachedResultName": "MY OWN SUBWORKFLOW"
+				},
+				"workflowInputs": {
+					"mappingMode": "defineBelow",
+					"value": {},
+					"matchingColumns": [],
+					"schema": [],
+					"attemptToConvertTypes": false,
+					"convertFieldsToString": true
+				},
+				"options": {}
+			}
 		}
 	],
 	"connections": {
@@ -114,6 +142,17 @@
 				[
 					{
 						"node": "Insert row",
+						"type": "main",
+						"index": 0
+					}
+				]
+			]
+		},
+		"Insert row": {
+			"main": [
+				[
+					{
+						"node": "Call 'MY OWN SUBWORKFLOW'",
 						"type": "main",
 						"index": 0
 					}

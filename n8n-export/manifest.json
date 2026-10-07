@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:29:14.138Z",
+	"exportedAt": "2026-10-07T12:35:11.195Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -90,6 +90,15 @@
 				]
 			}
 		],
+		"workflows": [
+			{
+				"id": "fTcwsBj1atGthfKJ",
+				"name": "MY OWN SUBWORKFLOW",
+				"usedByWorkflows": [
+					"5fhi6w6bT0AuoqX2"
+				]
+			}
+		],
 		"variables": [
 			{
 				"name": "test",
@@ -132,6 +141,13 @@
 			{
 				"type": "n8n-nodes-base.dataTable",
 				"typeVersion": 1.1,
+				"usedByWorkflows": [
+					"5fhi6w6bT0AuoqX2"
+				]
+			},
+			{
+				"type": "n8n-nodes-base.executeWorkflow",
+				"typeVersion": 1.4,
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
 				]
