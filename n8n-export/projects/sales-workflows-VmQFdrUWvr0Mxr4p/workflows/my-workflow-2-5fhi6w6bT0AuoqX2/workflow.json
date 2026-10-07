@@ -33,6 +33,29 @@
 					"name": "DO NOT USE THIS CREDENTIAL"
 				}
 			}
+		},
+		{
+			"id": "73450515-787e-403a-8984-bdbb21563750",
+			"name": "Edit Fields",
+			"type": "n8n-nodes-base.set",
+			"typeVersion": 3.5,
+			"position": [
+				400,
+				16
+			],
+			"parameters": {
+				"assignments": {
+					"assignments": [
+						{
+							"id": "4aa86c0b-723e-4824-9fb5-1551fee5675d",
+							"name": "={{ $vars.test }}",
+							"value": "1000",
+							"type": "string"
+						}
+					]
+				},
+				"options": {}
+			}
 		}
 	],
 	"connections": {
@@ -41,6 +64,17 @@
 				[
 					{
 						"node": "HTTP Request",
+						"type": "main",
+						"index": 0
+					}
+				]
+			]
+		},
+		"HTTP Request": {
+			"main": [
+				[
+					{
+						"node": "Edit Fields",
 						"type": "main",
 						"index": 0
 					}

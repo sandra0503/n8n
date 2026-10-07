@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:21:33.309Z",
+	"exportedAt": "2026-10-07T12:24:18.692Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -51,12 +51,27 @@
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/credentials/use-this-credential-RKsQOQZjSbmJgjJ7"
 		}
 	],
+	"variables": [
+		{
+			"id": "9I5xEGTOJR8MOsTR",
+			"name": "test",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/variables/test-9I5xEGTOJR8MOsTR"
+		}
+	],
 	"requirements": {
 		"credentials": [
 			{
 				"id": "m5j3EyfF9ZtQO0TW",
 				"name": "DO NOT USE THIS CREDENTIAL",
 				"type": "httpHeaderAuth",
+				"usedByWorkflows": [
+					"5fhi6w6bT0AuoqX2"
+				]
+			}
+		],
+		"variables": [
+			{
+				"name": "test",
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
 				]
@@ -82,6 +97,13 @@
 			{
 				"type": "n8n-nodes-base.httpRequest",
 				"typeVersion": 4.5,
+				"usedByWorkflows": [
+					"5fhi6w6bT0AuoqX2"
+				]
+			},
+			{
+				"type": "n8n-nodes-base.set",
+				"typeVersion": 3.5,
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
 				]
