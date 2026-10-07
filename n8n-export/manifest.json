@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T11:58:08.556Z",
+	"exportedAt": "2026-10-07T11:59:36.300Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -8,6 +8,11 @@
 			"id": "5fhi6w6bT0AuoqX2",
 			"name": "My workflow 2",
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/folders/etfsfd-bac7K1KMzUE3U8nZ/workflows/my-workflow-2-5fhi6w6bT0AuoqX2"
+		},
+		{
+			"id": "dDZfZ6ZqQyymW3nR",
+			"name": "My workflow 3",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/folders/etfsfd-bac7K1KMzUE3U8nZ/workflows/my-workflow-3-dDZfZ6ZqQyymW3nR"
 		},
 		{
 			"id": "9nzclj0BmXH7hT18",
@@ -48,7 +53,8 @@
 				"typeVersion": 1,
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2",
-					"ONvirPdlOjvdgYn7"
+					"ONvirPdlOjvdgYn7",
+					"dDZfZ6ZqQyymW3nR"
 				]
 			}
 		]
