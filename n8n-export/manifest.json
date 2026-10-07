@@ -1,19 +1,9 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:38:56.206Z",
+	"exportedAt": "2026-10-07T12:43:28.901Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
-		{
-			"id": "5fhi6w6bT0AuoqX2",
-			"name": "My workflow 2",
-			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/my-workflow-2-5fhi6w6bT0AuoqX2"
-		},
-		{
-			"id": "dDZfZ6ZqQyymW3nR",
-			"name": "My workflow 3",
-			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/my-workflow-3-dDZfZ6ZqQyymW3nR"
-		},
 		{
 			"id": "9nzclj0BmXH7hT18",
 			"name": "My workflow",
@@ -23,13 +13,33 @@
 			"id": "ONvirPdlOjvdgYn7",
 			"name": "New PO approval flow",
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/new-po-approval-flow-ONvirPdlOjvdgYn7"
+		},
+		{
+			"id": "5fhi6w6bT0AuoqX2",
+			"name": "My workflow 2",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/my-workflow-2-5fhi6w6bT0AuoqX2"
+		},
+		{
+			"id": "dDZfZ6ZqQyymW3nR",
+			"name": "My workflow 3",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/my-workflow-3-dDZfZ6ZqQyymW3nR"
 		}
 	],
 	"folders": [
 		{
 			"id": "bac7K1KMzUE3U8nZ",
-			"name": "etfsfd",
-			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/folders/etfsfd-bac7K1KMzUE3U8nZ"
+			"name": "rename",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/folders/rename-bac7K1KMzUE3U8nZ"
+		},
+		{
+			"id": "owYiSwhXOHmNMiVm",
+			"name": "move folder",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/folders/rename-bac7K1KMzUE3U8nZ/move-folder-owYiSwhXOHmNMiVm"
+		},
+		{
+			"id": "A2ZZ2YgW8SnzawWI",
+			"name": "move filder1",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/folders/rename-bac7K1KMzUE3U8nZ/move-filder1-A2ZZ2YgW8SnzawWI"
 		}
 	],
 	"projects": [
@@ -37,6 +47,11 @@
 			"id": "VmQFdrUWvr0Mxr4p",
 			"name": "Sales workflows",
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p"
+		},
+		{
+			"id": "ciNMykeKmNTeIDkV",
+			"name": "Cross Dependency Project",
+			"target": "projects/cross-dependency-project-ciNMykeKmNTeIDkV"
 		}
 	],
 	"credentials": [
@@ -44,16 +59,6 @@
 			"id": "KLCNbK0HMGmrH2eV",
 			"name": "MY OWN CREDENTIAL!!!!",
 			"target": "credentials/my-own-credential-KLCNbK0HMGmrH2eV"
-		},
-		{
-			"id": "m5j3EyfF9ZtQO0TW",
-			"name": "DO NOT USE THIS CREDENTIAL",
-			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/credentials/do-not-use-this-credential-m5j3EyfF9ZtQO0TW"
-		},
-		{
-			"id": "RKsQOQZjSbmJgjJ7",
-			"name": "USE THIS CREDENTIAL",
-			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/credentials/use-this-credential-RKsQOQZjSbmJgjJ7"
 		}
 	],
 	"dataTables": [
@@ -90,15 +95,6 @@
 				]
 			}
 		],
-		"workflows": [
-			{
-				"id": "gWtcHPQKefyNvYwS",
-				"name": "SHARED SUBWORKFLOW",
-				"usedByWorkflows": [
-					"5fhi6w6bT0AuoqX2"
-				]
-			}
-		],
 		"variables": [
 			{
 				"name": "test",
@@ -119,8 +115,8 @@
 				"type": "n8n-nodes-base.manualTrigger",
 				"typeVersion": 1,
 				"usedByWorkflows": [
-					"5fhi6w6bT0AuoqX2",
 					"ONvirPdlOjvdgYn7",
+					"5fhi6w6bT0AuoqX2",
 					"dDZfZ6ZqQyymW3nR"
 				]
 			},
@@ -141,13 +137,6 @@
 			{
 				"type": "n8n-nodes-base.dataTable",
 				"typeVersion": 1.1,
-				"usedByWorkflows": [
-					"5fhi6w6bT0AuoqX2"
-				]
-			},
-			{
-				"type": "n8n-nodes-base.executeWorkflow",
-				"typeVersion": 1.4,
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
 				]
