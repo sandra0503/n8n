@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:16:34.012Z",
+	"exportedAt": "2026-10-07T12:18:32.859Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -39,7 +39,24 @@
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p"
 		}
 	],
+	"credentials": [
+		{
+			"id": "RKsQOQZjSbmJgjJ7",
+			"name": "USE THIS CREDENTIAL",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/credentials/use-this-credential-RKsQOQZjSbmJgjJ7"
+		}
+	],
 	"requirements": {
+		"credentials": [
+			{
+				"id": "RKsQOQZjSbmJgjJ7",
+				"name": "USE THIS CREDENTIAL",
+				"type": "httpHeaderAuth",
+				"usedByWorkflows": [
+					"5fhi6w6bT0AuoqX2"
+				]
+			}
+		],
 		"nodeTypes": [
 			{
 				"type": "n8n-nodes-base.scheduleTrigger",

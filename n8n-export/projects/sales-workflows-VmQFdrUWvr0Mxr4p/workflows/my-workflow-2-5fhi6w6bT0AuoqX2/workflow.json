@@ -26,6 +26,12 @@
 				"authentication": "genericCredentialType",
 				"genericAuthType": "httpHeaderAuth",
 				"options": {}
+			},
+			"credentials": {
+				"httpHeaderAuth": {
+					"id": "RKsQOQZjSbmJgjJ7",
+					"name": "USE THIS CREDENTIAL"
+				}
 			}
 		}
 	],
