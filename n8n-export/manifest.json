@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:27:47.802Z",
+	"exportedAt": "2026-10-07T12:29:14.138Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -41,6 +41,11 @@
 	],
 	"credentials": [
 		{
+			"id": "KLCNbK0HMGmrH2eV",
+			"name": "MY OWN CREDENTIAL!!!!",
+			"target": "credentials/my-own-credential-KLCNbK0HMGmrH2eV"
+		},
+		{
 			"id": "m5j3EyfF9ZtQO0TW",
 			"name": "DO NOT USE THIS CREDENTIAL",
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/credentials/do-not-use-this-credential-m5j3EyfF9ZtQO0TW"
@@ -58,11 +63,18 @@
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/data-tables/tst-yEzs0LFwUpVPnZ3z"
 		}
 	],
+	"variables": [
+		{
+			"id": "9I5xEGTOJR8MOsTR",
+			"name": "test",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/variables/test-9I5xEGTOJR8MOsTR"
+		}
+	],
 	"requirements": {
 		"credentials": [
 			{
-				"id": "m5j3EyfF9ZtQO0TW",
-				"name": "DO NOT USE THIS CREDENTIAL",
+				"id": "KLCNbK0HMGmrH2eV",
+				"name": "MY OWN CREDENTIAL!!!!",
 				"type": "httpHeaderAuth",
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
