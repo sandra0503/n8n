@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:24:18.692Z",
+	"exportedAt": "2026-10-07T12:25:14.204Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -51,6 +51,13 @@
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/credentials/use-this-credential-RKsQOQZjSbmJgjJ7"
 		}
 	],
+	"dataTables": [
+		{
+			"id": "yEzs0LFwUpVPnZ3z",
+			"name": "tst",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/data-tables/tst-yEzs0LFwUpVPnZ3z"
+		}
+	],
 	"variables": [
 		{
 			"id": "9I5xEGTOJR8MOsTR",
@@ -64,6 +71,15 @@
 				"id": "m5j3EyfF9ZtQO0TW",
 				"name": "DO NOT USE THIS CREDENTIAL",
 				"type": "httpHeaderAuth",
+				"usedByWorkflows": [
+					"5fhi6w6bT0AuoqX2"
+				]
+			}
+		],
+		"dataTables": [
+			{
+				"id": "yEzs0LFwUpVPnZ3z",
+				"name": "tst",
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
 				]
@@ -104,6 +120,13 @@
 			{
 				"type": "n8n-nodes-base.set",
 				"typeVersion": 3.5,
+				"usedByWorkflows": [
+					"5fhi6w6bT0AuoqX2"
+				]
+			},
+			{
+				"type": "n8n-nodes-base.dataTable",
+				"typeVersion": 1.1,
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
 				]

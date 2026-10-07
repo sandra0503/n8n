@@ -56,6 +56,34 @@
 				},
 				"options": {}
 			}
+		},
+		{
+			"id": "b5961687-9ad6-4a1c-8fc3-6f387600faef",
+			"name": "Insert row",
+			"type": "n8n-nodes-base.dataTable",
+			"typeVersion": 1.1,
+			"position": [
+				624,
+				16
+			],
+			"parameters": {
+				"dataTableId": {
+					"__rl": true,
+					"value": "yEzs0LFwUpVPnZ3z",
+					"mode": "list",
+					"cachedResultName": "tst",
+					"cachedResultUrl": "/projects/VmQFdrUWvr0Mxr4p/datatables/yEzs0LFwUpVPnZ3z"
+				},
+				"columns": {
+					"mappingMode": "defineBelow",
+					"value": {},
+					"matchingColumns": [],
+					"schema": [],
+					"attemptToConvertTypes": false,
+					"convertFieldsToString": false
+				},
+				"options": {}
+			}
 		}
 	],
 	"connections": {
@@ -75,6 +103,17 @@
 				[
 					{
 						"node": "Edit Fields",
+						"type": "main",
+						"index": 0
+					}
+				]
+			]
+		},
+		"Edit Fields": {
+			"main": [
+				[
+					{
+						"node": "Insert row",
 						"type": "main",
 						"index": 0
 					}
