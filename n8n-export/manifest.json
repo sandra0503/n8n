@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T12:44:34.729Z",
+	"exportedAt": "2026-10-07T12:50:30.322Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -59,6 +59,11 @@
 			"id": "KLCNbK0HMGmrH2eV",
 			"name": "MY OWN CREDENTIAL!!!!",
 			"target": "credentials/my-own-credential-KLCNbK0HMGmrH2eV"
+		},
+		{
+			"id": "6m1yaAR88KMVRjVX",
+			"name": "SHARED CREDENTIAL PLEASE USE",
+			"target": "credentials/shared-credential-please-use-6m1yaAR88KMVRjVX"
 		}
 	],
 	"dataTables": [
@@ -78,8 +83,8 @@
 	"requirements": {
 		"credentials": [
 			{
-				"id": "KLCNbK0HMGmrH2eV",
-				"name": "MY OWN CREDENTIAL!!!!",
+				"id": "6m1yaAR88KMVRjVX",
+				"name": "SHARED CREDENTIAL PLEASE USE",
 				"type": "httpHeaderAuth",
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
