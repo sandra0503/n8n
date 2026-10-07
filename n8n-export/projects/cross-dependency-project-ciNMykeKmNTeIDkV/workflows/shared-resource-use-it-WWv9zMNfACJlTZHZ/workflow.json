@@ -1,0 +1,25 @@
+{
+	"id": "WWv9zMNfACJlTZHZ",
+	"name": "SHARED RESOURCE USE IT!!!!",
+	"nodes": [
+		{
+			"id": "0f5d3ec0-0330-4b2b-931e-22283d6a0232",
+			"name": "When Executed by Another Workflow",
+			"type": "n8n-nodes-base.executeWorkflowTrigger",
+			"typeVersion": 1.3,
+			"position": [
+				0,
+				0
+			],
+			"parameters": {}
+		}
+	],
+	"connections": {},
+	"settings": {
+		"executionOrder": "v1",
+		"binaryMode": "separate"
+	},
+	"parentFolderId": null,
+	"isArchived": false,
+	"tagIds": []
+}
