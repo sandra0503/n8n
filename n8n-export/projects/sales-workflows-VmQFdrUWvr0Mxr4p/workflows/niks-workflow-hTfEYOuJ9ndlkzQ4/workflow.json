@@ -1,0 +1,58 @@
+{
+	"id": "hTfEYOuJ9ndlkzQ4",
+	"name": "Nik's Workflow",
+	"nodes": [
+		{
+			"id": "92076666-55b5-4847-9b42-c104bb8e6787",
+			"name": "When clicking ‘Execute workflow’",
+			"type": "n8n-nodes-base.manualTrigger",
+			"typeVersion": 1,
+			"position": [
+				0,
+				0
+			],
+			"parameters": {}
+		},
+		{
+			"id": "a2c64af2-9d30-42bc-b148-7c4ecb3d80d4",
+			"name": "HTTP Request",
+			"type": "n8n-nodes-base.httpRequest",
+			"typeVersion": 4.5,
+			"position": [
+				224,
+				0
+			],
+			"parameters": {
+				"authentication": "genericCredentialType",
+				"genericAuthType": "httpHeaderAuth",
+				"options": {}
+			},
+			"credentials": {
+				"httpHeaderAuth": {
+					"id": "mxfqLLFeGHCUXpRg",
+					"name": "NIK's Credential"
+				}
+			}
+		}
+	],
+	"connections": {
+		"When clicking ‘Execute workflow’": {
+			"main": [
+				[
+					{
+						"node": "HTTP Request",
+						"type": "main",
+						"index": 0
+					}
+				]
+			]
+		}
+	},
+	"settings": {
+		"executionOrder": "v1",
+		"binaryMode": "separate"
+	},
+	"parentFolderId": null,
+	"isArchived": false,
+	"tagIds": []
+}

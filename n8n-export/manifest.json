@@ -1,6 +1,6 @@
 {
 	"packageFormatVersion": "1",
-	"exportedAt": "2026-10-07T13:06:36.018Z",
+	"exportedAt": "2026-10-09T12:19:42.738Z",
 	"sourceN8nVersion": "2.43.0",
 	"sourceId": "6924ffc1ed93242c823dc964d3ae8247d7a26c200c56c16166cc013cef85f35b",
 	"workflows": [
@@ -28,6 +28,11 @@
 			"id": "ONvirPdlOjvdgYn7",
 			"name": "New PO approval flow",
 			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/new-po-approval-flow-ONvirPdlOjvdgYn7"
+		},
+		{
+			"id": "hTfEYOuJ9ndlkzQ4",
+			"name": "Nik's Workflow",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/workflows/niks-workflow-hTfEYOuJ9ndlkzQ4"
 		}
 	],
 	"folders": [
@@ -64,6 +69,11 @@
 			"id": "6m1yaAR88KMVRjVX",
 			"name": "SHARED CREDENTIAL PLEASE USE",
 			"target": "projects/cross-dependency-project-ciNMykeKmNTeIDkV/credentials/shared-credential-please-use-6m1yaAR88KMVRjVX"
+		},
+		{
+			"id": "mxfqLLFeGHCUXpRg",
+			"name": "NIK's Credential",
+			"target": "projects/sales-workflows-VmQFdrUWvr0Mxr4p/credentials/niks-credential-mxfqLLFeGHCUXpRg"
 		}
 	],
 	"dataTables": [
@@ -88,6 +98,14 @@
 				"type": "httpHeaderAuth",
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2"
+				]
+			},
+			{
+				"id": "mxfqLLFeGHCUXpRg",
+				"name": "NIK's Credential",
+				"type": "httpHeaderAuth",
+				"usedByWorkflows": [
+					"hTfEYOuJ9ndlkzQ4"
 				]
 			}
 		],
@@ -131,7 +149,8 @@
 				"usedByWorkflows": [
 					"5fhi6w6bT0AuoqX2",
 					"ONvirPdlOjvdgYn7",
-					"dDZfZ6ZqQyymW3nR"
+					"dDZfZ6ZqQyymW3nR",
+					"hTfEYOuJ9ndlkzQ4"
 				]
 			},
 			{
@@ -145,7 +164,8 @@
 				"type": "n8n-nodes-base.httpRequest",
 				"typeVersion": 4.5,
 				"usedByWorkflows": [
-					"5fhi6w6bT0AuoqX2"
+					"5fhi6w6bT0AuoqX2",
+					"hTfEYOuJ9ndlkzQ4"
 				]
 			},
 			{
